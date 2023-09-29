@@ -22,7 +22,7 @@ env:
   DOCR_ENDPOINT: "registry.digitalocean.com/microservice-demo"
   CLUSTER_NAME: "microservices-demo-dev"
   REGION: "ams3"
-  K8S_NAMESPACE: "microservices-demo-${{ github.event.pull_request.number }}"
+  K8S_NAMESPACE: "microservices-demo-1"
   PROJECT_NAME: "online-boutique"
 
 jobs:
