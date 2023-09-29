@@ -2,11 +2,11 @@ name: Online Boutique PR Kustomize Validation
 
 on:
   workflow_dispatch:
-  # pull_request:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - "kustomize/**"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "kustomize/**"
 
 env:
   KUBECONFORM_VERSION: "0.5.0"

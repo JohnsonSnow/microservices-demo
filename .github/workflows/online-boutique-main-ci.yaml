@@ -4,14 +4,14 @@ on:
   # Used for testing only (can be disabled afterwards)
   workflow_dispatch:
   # Uncomment below lines to enable this workflow on push to main events
-  # push:
-  #   branches:
-  #     - main
-  #   paths-ignore:
-  #     - "**/README.md"
-  #     - "kustomize/**"
-  #     - "argocd/**"
-  #     - ".github/workflows/*"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "**/README.md"
+      - "kustomize/**"
+      - "argocd/**"
+      - ".github/workflows/*"
 
 # Do not allow concurrent workflows
 # Changes should be delivered one a time as code is merged into the main branch

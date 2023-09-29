@@ -4,14 +4,14 @@ on:
   # Used for testing only (can be disabled afterwards)
   workflow_dispatch:
   # Uncomment below lines to enable this workflow on main branch PR events
-  # pull_request:
-  #   branches:
-  #     - main
-  #   paths-ignore:
-  #     - "**/README.md"
-  #     - "kustomize/**"
-  #     - "argocd/**"
-  #     - ".github/workflows/*"
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - "**/README.md"
+      - "kustomize/**"
+      - "argocd/**"
+      - ".github/workflows/*"
 
 # Do not allow concurrent workflows for PRs
 # If disabled, leads to memory exhaustion on the DOKS dev cluster
