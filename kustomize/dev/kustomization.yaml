@@ -6,33 +6,33 @@ commonLabels:
   variant: dev
 
 resources:
-  - ../base
+- ../base
 
 images:
-  - name: cartservice
-    newName: registry.digitalocean.com/microservice-demo/cartservice
-    newTag: v1.0.0
-  - name: checkoutservice
-    newName: registry.digitalocean.com/microservice-demo/checkoutservice
-    newTag: v1.0.0
-  - name: currencyservice
-    newName: registry.digitalocean.com/microservice-demo/currencyservice
-    newTag: v1.0.0
-  - name: emailservice
-    newName: registry.digitalocean.com/microservice-demo/emailservice
-    newTag: v1.0.0
-  - name: frontend
-    newName: registry.digitalocean.com/microservice-demo/frontend
-    newTag: v1.0.0
-  - name: paymentservice
-    newName: registry.digitalocean.com/microservice-demo/paymentservice
-    newTag: v1.0.0
-  - name: productcatalogservice
-    newName: registry.digitalocean.com/microservice-demo/productcatalogservice
-    newTag: v1.0.0
-  - name: recommendationservice
-    newName: registry.digitalocean.com/microservice-demo/recommendationservice
-    newTag: v1.0.0
-  - name: shippingservice
-    newName: registry.digitalocean.com/microservice-demo/shippingservice
-    newTag: v1.0.0
+- name: cartservice
+  newName: registry.digitalocean.com/microservice-demo/cartservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: checkoutservice
+  newName: registry.digitalocean.com/microservice-demo/checkoutservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: currencyservice
+  newName: registry.digitalocean.com/microservice-demo/currencyservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: emailservice
+  newName: registry.digitalocean.com/microservice-demo/emailservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: frontend
+  newName: registry.digitalocean.com/microservice-demo/frontend
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: paymentservice
+  newName: registry.digitalocean.com/microservice-demo/paymentservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: productcatalogservice
+  newName: registry.digitalocean.com/microservice-demo/productcatalogservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: recommendationservice
+  newName: registry.digitalocean.com/microservice-demo/recommendationservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
+- name: shippingservice
+  newName: registry.digitalocean.com/microservice-demo/shippingservice
+  newTag: bd464114cc497f775a6f0c278ba601d2b3fce1c1
