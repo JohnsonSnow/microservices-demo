@@ -17,10 +17,11 @@ on:
 # Changes should be delivered one a time as code is merged into the main branch
 concurrency: main-ci-dev
 
+
 # Global environment variables
 env:
   CI_COMMIT_AUTHOR: "GitHub CI Actions"
-  CI_COMMIT_AUTHOR_EMAIL: "gh-ci-actions@noreply.github.com"
+  CI_COMMIT_AUTHOR_EMAIL: "j.okorie2@gmail.com"
   DOCR_ENDPOINT: "registry.digitalocean.com/microservice-demo"
   PROJECT_NAME: "online-boutique"
 
